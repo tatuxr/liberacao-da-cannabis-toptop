@@ -4,9 +4,10 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
+
 const perguntas = [
     {
-        enunciado: "1. A legalização da cannabis para fins medicinais é benéfica?",
+        enunciado: "1.A legalização da cannabis para fins medicinais é benéfica?",
         alternativas: [
             {
                 texto: "Sim, a cannabis medicinal pode ser eficaz no tratamento de condições como epilepsia, dor crônica e esclerose múltipla, oferecendo alívio a pacientes que não respondem bem a tratamentos convencionais.!",
@@ -19,7 +20,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "A liberação da cannabis para uso recreativo traria benefícios sociais?",
+        enunciado: "2.A liberação da cannabis para uso recreativo traria benefícios sociais?",
         alternativas: [
             {
                 texto: "Sim, a legalização pode reduzir o tráfico de drogas e diminuir a sobrecarga do sistema penal, ao mesmo tempo em que gera receitas para o governo através de impostos.",
@@ -32,7 +33,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "A liberação da cannabis poderia impactar a economia positivamente?",
+        enunciado: "3.A liberação da cannabis poderia impactar a economia positivamente?",
         alternativas: [
             {
                 texto: "Sim, a legalização da cannabis criaria novos mercados, empregos e oportunidades para pequenos e grandes empresários, além de aumentar a arrecadação de impostos.",
@@ -45,7 +46,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "A cannabis tem o mesmo nível de risco que outras drogas recreativas legalizadas, como o álcool e o tabaco?",
+        enunciado: "4.A cannabis tem o mesmo nível de risco que outras drogas recreativas legalizadas, como o álcool e o tabaco?",
         alternativas: [
             {
                 texto: "Sim, estudos indicam que os riscos de dependência e os danos à saúde da cannabis são comparáveis aos do álcool e tabaco, então faz sentido regulá-la de forma semelhante.",
